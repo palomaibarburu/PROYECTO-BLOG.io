@@ -1,0 +1,508 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+/*
+Colores:
+#C6BEEF lila
+#2A3181 azul
+#FFFFFF blanco
+#D6E6F5 celeste
+#FFAA5A naranja
+#E1F4CB verde
+*/
+
+/*
+Tipografias
+font-family: 'DM Mono', monospace;
+font-family: 'Rubik Mono One', sans-serif;
+*/
+
+/*inicio estilo heather*/
+header{
+    background-color: #E1F4CB;
+    width: 100%;
+    height:  17rem;
+    position: relative;
+}
+
+header a {
+    text-decoration: none;
+    font-family: 'DM Mono', monospace;
+    color: #FFFFFF;
+    font-size: 36px;
+    text-align: center;}
+
+    header ul li{
+        display: inline;
+        text-align: center;
+    }
+
+                    .foodUno{
+                        position: absolute;
+                        width: 25rem;
+                        height: 15rem;
+                        left: 114.5rem;
+                        top: 0px;
+
+                        background: #6FA5F7;
+                        border-radius: 0px 0px 93.5px 93.5px;
+                    }
+
+                    .regalosUno{
+                        position: absolute;
+                        width: 25rem;
+                        height: 15rem;
+                        left:87.8rem;
+                        top: 0px;
+                    
+                        background: #4AA68D;
+                        border-radius: 0px 0px 93.5px 93.5px;
+
+                    }
+
+                    .espaciosUno{
+                        position: absolute;
+                        width: 25rem;
+                        height: 15rem;
+                        left: 60.8rem;
+                        top: 0px;
+                    
+                        background: #C6BEEF;
+
+                        border-radius: 0px 0px 93.5px 93.5px;
+                    
+                    }
+
+                    .arteUno{
+                        position: absolute;
+                        width: 25rem;
+                        height: 15rem;
+                        left:33.9rem;
+                        top: 0px;
+                    
+                        background: #F5CA30;
+                        border-radius: 0px 0px 93.5px 93.5px;
+                    
+                    }
+
+                    .homeUno{
+                        position: absolute;
+                        width: 25rem;
+                        height: 15rem;
+                        left: 7rem;
+                        top: 0px;
+                    
+                        background: #FFAA5A;
+                        border-radius: 0px 0px 93.5px 93.5px;
+                    
+                    }
+
+/*inicio estilo main*/
+
+
+
+
+/* Inicio estilo MAIN */
+main{
+    background-color: #ffffff;
+} 
+
+
+
+/*PRIMERA SECCION*/
+
+.seccionPrimera {
+    background-color: white;
+    width: 100%;
+    height: 75rem;
+    position: relative;
+}
+
+/* reviews */
+.reviewsUno{
+    
+
+    position: absolute;
+    width: 25rem;
+    height: 35rem;
+    left: 10rem;
+
+    background-color: #D6E6F5;
+    border-radius: 0 0 3.2rem 3.2rem;
+    padding: 1rem;
+}
+
+.reviewsUno a{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+    color: #4AA68D;
+    text-decoration: none;
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+                    /*imagen UNO CIELO CELESTE*/
+                    .seccionPrimera img{
+                        position: absolute;
+                        top: 0px;
+                        width: 100%;
+                    }
+
+.seccionPrimera h4{
+    width: 45rem;
+    height: 15rem;
+    font-family: 'DM Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.4rem;
+    line-height: 8rem;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    padding-top: 10rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+
+    color: #C6BEEF;
+    transform: rotate(-12.43deg);
+    text-align: center;
+    transform-origin: bottom center;
+    
+            
+}
+
+                    /*imagen DOS HUELLA*/
+                    .imgDos{
+                        width: 15rem;
+                        height: 65rem;
+                        position: absolute;
+                    left: 60rem;
+                    right: 10rem;
+                    top: 10rem;
+                    bottom: 50rem;
+                    padding: 2rem;
+                    }
+
+
+.seccionPrimera h1{
+
+    position: absolute;
+    width: 36rem;
+    height: 13rem;
+    top: 2rem;
+    left: 101rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    -webkit-text-stroke: 2px #FFAA5A;
+    color: transparent;
+
+    font-family: 'DM Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13rem;
+    line-height: 18rem;
+    text-align: right;
+    
+
+}
+
+.seccionPrimera p{
+    position: absolute;
+    width: 39rem;
+    height: 40rem;
+    left: 101rem;
+    top: 30rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    
+    font-family: 'DM Mono'monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    text-align: right;
+    
+    color: #2A3181;
+}
+
+
+
+
+/*SEGUNDA SECCION*/
+.seccionSegunda {
+    background-color: #C6BEEF;
+    position: relative;
+    width: 100%;
+    height: 46rem;
+    top: 1rem;
+    margin: 0;
+}
+
+.seccionSegunda div p{
+
+position: relative;
+width: 80rem;
+height: 20rem;
+text-align: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    margin: 0rem
+    
+}
+                    /*imagen FLORES*/
+                   
+                    /*imagen TRES FLOR*/
+                   
+                    .imgTres {
+                        position: absolute;
+                        width: 1rem;
+                        height: 1rem;
+                        padding: 1rem;
+                    }
+
+                    /*imagen CUATRO FLOR*/
+
+                    .imgCuatro{
+                        position: absolute;
+                        width: 1rem;
+                        height: 1rem;
+                        padding: 1rem;
+                    }
+
+
+
+/*TERCERA SECCION*/
+.seccionTercera {
+    background-color: #FFAA5A;
+    position: relative;
+    width: 100%;
+    height: 46rem;
+    left: 0px;
+    top: 0rem;
+    margin: 0;
+}
+
+                    /*imagen CINCO PLATO DE COMIDA*/
+                    .seccionTercera img{
+                        width: 50rem;
+                        position: absolute;
+                        
+                        top: 0rem;
+                        right: 0;
+                    }
+
+.seccionTercera p{
+    color: white;
+    text-align: left;
+    position:absolute;
+    width: 50%;
+    padding: 10rem;
+}
+
+figcaption{
+    color: #FFFFFF;
+    font-family: 'DM Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: left;
+    padding: 5rem;
+}
+
+
+
+
+
+
+
+/*CUARTA SECCION*/
+.seccionCuarta {
+    background-color:#E1F4CB;
+    position: relative;
+    width: 100%;
+    height: 40rem;
+}
+
+.seccionCuarta p{ 
+    position: absolute;
+width: 705px;
+height: 235px;
+left: 578px;
+top: 2rem
+
+}
+
+                    /*imagen SEIS PERSONA*/
+                    .seccionCuarta img{
+                        position: absolute;
+                        width: 20rem;
+                        padding: 2rem;
+                        top:2rem;
+                        left: 2rem;
+                    }
+
+.seccionCuarta h2{
+    position: absolute;
+    width: 705px;
+    height: 235px;
+    left: 578px;
+    top: 2rem;
+    font-family: 'DM Mono', monospace;
+    font-size: 2.0rem; 
+    font-weight: 400;
+    
+    display: flex;
+    align-items: center;
+    color: #2A3181;
+}
+
+
+/*FOOTER*/
+                            footer{
+                                position: absolute;
+                                width: 100%;
+                                height: 30rem;
+                                top: 222rem;
+                                background: #D6E6F5;
+                                text-align: center;
+                                }
+
+                            footer img{
+                            width: 2rem;
+                        }
+
+
+
+
+
+
+
+                        /*PAGINA FOOD*/
+
+                        .seccionFood{
+
+                            width: 50rem;
+                            height: 100rem;
+                            background-color: #6FA5F7;
+                        }
+
+                        .seccionFood p{
+                            color: white;
+                            width: 50rem;
+                            height: 100rem;
+                            padding: 5rem;
+                        }
+
+                        .huevoFrito {
+                            position: relative;
+                            width: 35rem;
+                            height: 50rem;
+                        }
+                        .huevoFrito p{
+                            position: absolute;
+                            width: 45rem;
+                            height: 35rem;
+                            color: #2A3181;
+                            padding: 5rem;
+                            padding-top: 3rem;
+                            }
+                        .huevoFrito h3{
+                            width: 35rem;
+                            height: 5rem;
+                            text-align: left;
+                            padding-left: 5rem;
+                        }
+                        .huevoFrito img{
+                            width: 45rem;
+                            padding: 5rem;
+                        }
+
+
+
+                        /*seccion pasta*/
+                        .platoPasta{
+                            position: relative;
+                            width: 35rem;
+                            height: 50rem;
+                        }
+                        .platoPasta p{
+                            position: absolute;
+                            width: 45rem;
+                            height: 35rem;
+                            color: #2A3181;
+                            padding: 5rem;
+                            padding-top: 3rem;
+                            }
+                        .platoPasta h3{
+                            width: 35rem;
+                            height: 5rem;
+                            text-align: left;
+                            padding-left: 5rem;
+                        }
+                        .platoPasta img{
+                            width: 45rem;
+                            padding: 5rem;
+                        }
+                    
+
+
+.main section ul li{
+    display: inline;
+    text-align: left;
+}
+
+
+
+
+
+p{
+    color: #2A3181;
+    font-family: 'DM Mono', monospace;
+    font-size: 1.3rem;
+    
+}
+h3{
+    color: #2A3181;
+    font-family: 'DM Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+h6{
+    position: absolute;
+    width: 36rem;
+    height: 13rem;
+    padding: 2rem;
+    text-align: left;
+
+    font-family: 'DM Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13rem;
+    line-height: 18rem;
+    text-align: right;
+    -webkit-text-stroke: 2px #FFFFFF;
+    color: transparent;
+}
+
+
