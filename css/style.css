@@ -15,6 +15,7 @@ Colores:
 #D6E6F5 celeste
 #FFAA5A naranja
 #E1F4CB verde
+#F5CA30 amarillo
 */
 
 /*
@@ -27,81 +28,47 @@ font-family: 'Rubik Mono One', sans-serif;
 header{
     background-color: #E1F4CB;
     width: 100%;
-    height:  17rem;
-    position: relative;
 }
 
+ ul {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: 150px;
+    padding-bottom: 30px;
+
+    
+ }
 header a {
+   
     text-decoration: none;
     font-family: 'DM Mono', monospace;
     color: #FFFFFF;
     font-size: 36px;
-    text-align: center;}
+    text-align: center;
+}
+    
 
     header ul li{
         display: inline;
         text-align: center;
+        border-radius: 0px 0px 80px 80px;
     }
 
-                    .foodUno{
-                        position: absolute;
-                        width: 25rem;
-                        height: 15rem;
-                        left: 114.5rem;
-                        top: 0px;
-
-                        background: #6FA5F7;
-                        border-radius: 0px 0px 93.5px 93.5px;
-                    }
-
-                    .regalosUno{
-                        position: absolute;
-                        width: 25rem;
-                        height: 15rem;
-                        left:87.8rem;
-                        top: 0px;
-                    
-                        background: #4AA68D;
-                        border-radius: 0px 0px 93.5px 93.5px;
-
-                    }
-
-                    .espaciosUno{
-                        position: absolute;
-                        width: 25rem;
-                        height: 15rem;
-                        left: 60.8rem;
-                        top: 0px;
-                    
-                        background: #C6BEEF;
-
-                        border-radius: 0px 0px 93.5px 93.5px;
-                    
-                    }
-
-                    .arteUno{
-                        position: absolute;
-                        width: 25rem;
-                        height: 15rem;
-                        left:33.9rem;
-                        top: 0px;
-                    
-                        background: #F5CA30;
-                        border-radius: 0px 0px 93.5px 93.5px;
-                    
-                    }
-
-                    .homeUno{
-                        position: absolute;
-                        width: 25rem;
-                        height: 15rem;
-                        left: 7rem;
-                        top: 0px;
-                    
-                        background: #FFAA5A;
-                        border-radius: 0px 0px 93.5px 93.5px;
-                    
-                    }
+        .foodUno{
+            background-color: #FFAA5A;
+        }
+        .regalosUno{
+            background-color: #F5CA30;
+        }
+        .espaciosUno{
+            background-color: #C6BEEF;
+        }
+        .arteUno{
+            background-color: #4AA68D;
+        }
+        .homeUno{
+            background-color: #6FA5F7;
+        }
 
 /*inicio estilo main*/
 
